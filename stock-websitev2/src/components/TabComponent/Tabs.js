@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import TabNavItem from "../V2/TabNavItem";
-import TabContent from "../V2/TabContent";
+import TabNavItem from "../TabItem/TabNavItem";
+import TabContent from "../TabItem/TabContent";
 import { GraphSection } from "../GraphSection/GraphSection";
  
 const Tabs = () => {
