@@ -9,6 +9,7 @@ const Tabs = () => {
   return (
     <div className="Tabs">
       <ul className="nav">
+        <TabNavItem title="Edu Crypto" id="educrypto" activeTab={activeTab} setActiveTab={setActiveTab}/>
         <TabNavItem title="Home" id="home" activeTab={activeTab} setActiveTab={setActiveTab}/>
         <TabNavItem title="News" id="news" activeTab={activeTab} setActiveTab={setActiveTab}/>
         <TabNavItem title="Learning Resources" id="resources" activeTab={activeTab} setActiveTab={setActiveTab}/>
@@ -17,6 +18,9 @@ const Tabs = () => {
       </ul>
  
       <div className="outlet">
+        <TabContent id="educrypto" activeTab={activeTab}>
+          <p>Home Page</p>
+        </TabContent>
         <TabContent id="home" activeTab={activeTab}>
           <p>Home Page</p>
         </TabContent>
