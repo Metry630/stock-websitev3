@@ -1,4 +1,5 @@
 import './App.css';
+//import GraphSection from './components/GraphSection/GraphSection';
 import LandingPage from './components/LandingPage/LandingPage';
 function App() {
   return (
