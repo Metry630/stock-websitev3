@@ -1,7 +1,9 @@
 import React, { useState } from "react";
-import TabNavItem from "../TabItem/TabNavItem";
-import TabContent from "../TabItem/TabContent";
+import TabNavItem from "../V2/TabNavItem";
+import TabContent from "../V2/TabContent";
 import { GraphSection } from "../GraphSection/GraphSection";
+import LandingPage from "../LandingPage/LandingPage";
+import LearningResources from "../LearningResources/LearningResources";
  
 const Tabs = () => {
   const [activeTab, setActiveTab] = useState("tab1");
@@ -19,16 +21,16 @@ const Tabs = () => {
  
       <div className="outlet">
         <TabContent id="educrypto" activeTab={activeTab}>
-          <p>Home Page</p>
+          <LandingPage></LandingPage>
         </TabContent>
         <TabContent id="home" activeTab={activeTab}>
-          <p>Home Page</p>
+          <LandingPage></LandingPage>
         </TabContent>
         <TabContent id="news" activeTab={activeTab}>
           <p>News Page</p>
         </TabContent>
         <TabContent id="resources" activeTab={activeTab}>
-          <p>Resources Page</p>
+          <LearningResources></LearningResources>
         </TabContent>
         <TabContent id="graphs" activeTab={activeTab}>
           <p>GraphSection</p>
