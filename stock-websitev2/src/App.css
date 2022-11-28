@@ -73,7 +73,7 @@ ul.nav li:last-child {
 }
  
 ul.nav li:hover {
-  background: rgba(50, 224, 196, 0.15);
+  background: #43074b;
 }
  
 ul.nav li.active {
@@ -84,4 +84,24 @@ ul.nav li.active {
 .TabContent {
   font-size: 2rem;
   text-align: center;
+}
+.content{
+  margin-top: 10%;
+}
+.content h1{
+  font-size: 88px;
+  margin-bottom: 6px;
+}
+.content p{
+  line-height: 22px;
+  font-size: 14px;
+}
+.content .btn{
+  display: inline-block;
+  margin-top: 30px;
+  background: #908b91;
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 30px;
+  border-radius: 30px;
 }
