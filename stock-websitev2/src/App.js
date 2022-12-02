@@ -10,14 +10,14 @@
 // }
 
 // export default App;
-import "./App.css";
-import Tabs from "./components/TabComponent/Tabs";
-function App() {
-  return (
-    <div className="App">
-      <Tabs />
-    </div>
-  );
-}
+// import "./App.css";
+// import Tabs from "./components/TabComponent/Tabs";
+// function App() {
+//   return (
+//     <div className="App">
+//       <Tabs />
+//     </div>
+//   );
+// }
 
-export default App;
+// export default App;
