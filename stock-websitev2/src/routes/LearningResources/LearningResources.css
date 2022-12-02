@@ -8,7 +8,7 @@ body {
     margin-top: 50px;
   }
   .LearningResources h1{
-    color: white;
+    color: #00CED1;
     text-align: left;
     font-size: 40px;
     margin-top: 20px;
@@ -28,7 +28,7 @@ body {
     border-radius: 8px;
     overflow: hidden;
     width: 200px;
-    height: 200px;
+    max-height: 220px;
     color: #fff;
     cursor: pointer;
   }
@@ -43,21 +43,4 @@ body {
     height: 100%;
     object-fit: cover;
     background: black;
-  }
-  
-  .card-bottom {
-    margin: 10px 20px;
-  }
-  
-  .category {
-    position: relative;
-  }
-  .category::before {
-    content: '';
-    background: rgb(255, 61, 61);
-    position: absolute;
-    top: calc(100% + 10px);
-    left: 0;
-    right: 0;
-    height: 2px;
   }
