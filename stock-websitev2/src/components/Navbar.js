@@ -27,13 +27,13 @@ function Navbar() {
             <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
                 <NavLink
-                  to="/"
+                  to="/#"
                   className={({ isActive }) =>
                     "nav-links" + (isActive ? " activated" : "")
                   }
                   onClick={closeMobileMenu}
                 >
-                  Edu Crypto
+                  <span class="bolded">Edu Crypto</span>
                 </NavLink>
               </li>
               <li className="nav-item">
@@ -44,7 +44,7 @@ function Navbar() {
                   }
                   onClick={closeMobileMenu}
                 >
-                  Home
+                  <span class="bolded">Home</span>
                 </NavLink>
               </li>
               <li className="nav-item">
@@ -55,7 +55,7 @@ function Navbar() {
                   }
                   onClick={closeMobileMenu}
                 >
-                  News
+                  <span class="bolded">News</span>
                 </NavLink>
               </li>
               <li className="nav-item">
@@ -66,7 +66,7 @@ function Navbar() {
                   }
                   onClick={closeMobileMenu}
                 >
-                  Learning Resources
+                  <span class="bolded">Learning Resources</span>
                 </NavLink>
               </li>
               <li className="nav-item">
@@ -77,10 +77,12 @@ function Navbar() {
                   }
                   onClick={closeMobileMenu}
                 >
-                  Graphs
+                  <span class="bolded">Graphs</span>
                 </NavLink>
               </li>
-              <li className="nav-item">
+              </ul>
+
+              <a class="cta">
                 <NavLink
                   to="/signup"
                   className={({ isActive }) =>
@@ -88,10 +90,10 @@ function Navbar() {
                   }
                   onClick={closeMobileMenu}
                 >
-                  Sign Up
+                  <span class="bolded-a">Sign Up</span>
                 </NavLink>
-              </li>
-            </ul>
+              </a>
+            {/* </ul> */}
           </div>
         </nav>
       </IconContext.Provider>
