@@ -1,4 +1,5 @@
 import React from "react";
+import "./LandingPage.css";
 import Phone from "../../images/LandingPage/phone.png"
 import Instagram from "../../images/LandingPage/ig-icon.png"
 
