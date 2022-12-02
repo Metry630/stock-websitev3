@@ -12,6 +12,7 @@ import "./App.css";
 import Home2 from "./routes/Logo";
 import Home from "./routes/Home";
 import News from "./routes/News";
+import LandingPage from "./routes/LandingPage/LandingPage";
 import LearningResources from "./routes/LearningResources/LearningResources";
 import Graphs from "./routes/Graphs";
 import Signup from "./routes/Signup";
@@ -32,12 +33,16 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
     children: [
       {
+        path: "/#",
+        element: <Home2 />,
+      },
+      {
         path: "/",
-        element: <Home />,
+        element: <LandingPage />,
       },
       {
         path: "news",
-        element: <News />,
+        element: <ErrorPage />,
       },
       {
         path: "learning",
@@ -49,7 +54,7 @@ const router = createBrowserRouter([
       },
       {
         path: "signup",
-        element: <Signup />,
+        element: <ErrorPage />,
       },
     ],
   },
@@ -58,3 +63,4 @@ const router = createBrowserRouter([
 createRoot(document.getElementById("root")).render(
   <RouterProvider router={router} />
 );
+
