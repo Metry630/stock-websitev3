@@ -33,7 +33,7 @@ function Navbar() {
                   }
                   onClick={closeMobileMenu}
                 >
-                  <span class="bolded">Edu Crypto</span>
+                  <span className="bolded">Edu Crypto</span>
                 </NavLink>
               </li>
               <li className="nav-item">
@@ -44,7 +44,7 @@ function Navbar() {
                   }
                   onClick={closeMobileMenu}
                 >
-                  <span class="bolded">Home</span>
+                  <span className="bolded">Home</span>
                 </NavLink>
               </li>
               <li className="nav-item">
@@ -66,7 +66,7 @@ function Navbar() {
                   }
                   onClick={closeMobileMenu}
                 >
-                  <span class="bolded">Learning Resources</span>
+                  <span className="bolded">Learning Resources</span>
                 </NavLink>
               </li>
               <li className="nav-item">
@@ -77,12 +77,12 @@ function Navbar() {
                   }
                   onClick={closeMobileMenu}
                 >
-                  <span class="bolded">Graphs</span>
+                  <span className="bolded">Graphs</span>
                 </NavLink>
               </li>
               </ul>
 
-              <a class="cta">
+              <a className="cta">
                 <NavLink
                   to="/signup"
                   className={({ isActive }) =>
@@ -90,7 +90,7 @@ function Navbar() {
                   }
                   onClick={closeMobileMenu}
                 >
-                  <span class="bolded-a">Sign Up</span>
+                  <span className="bolded-a">Sign Up</span>
                 </NavLink>
               </a>
             {/* </ul> */}

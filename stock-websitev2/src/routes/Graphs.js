@@ -1,13 +1,9 @@
 import React from "react";
-
+import GraphSection from "src/components/GraphSection/GraphSection";
 const Graphs = () => {
   return(
-      <div class="content">
-        <h1>Learn with us will be the<br />best choice for your<br />crypto!</h1>
-        <p>Sebuah platform yang dibuat sebagai media pembelajaran<br />
-        bagi seluruh kalangan mengenai cryptocurrency</p>
-                <a href="#" class="btn">EXPLORE MORE</a>
-            </div>);
+      <GraphSection></GraphSection>
+  )
   };
 
 export default Graphs;
