@@ -47,7 +47,7 @@ export const optionsScatter = {
 export const dataScatter = {
   datasets: [
     {
-      label: 'A dataset',
+      label: 'Selling Prices',
       data: Array.from({ length: 100 }, () => ({
         x: faker.datatype.number({ min: -100, max: 100 }),
         y: faker.datatype.number({ min: -100, max: 100 }),
